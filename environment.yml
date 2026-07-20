@@ -1,9 +1,8 @@
-name: openfe-benchmarks-test
+name: alchemical
 channels:
   - conda-forge
 dependencies:
-  - gufe=1.7.1
+  - gufe
   - openfe
   - pytest
   - pre-commit
-  - loguru
