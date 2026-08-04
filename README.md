@@ -17,82 +17,81 @@ This repository provides utilities, example scripts and resources for preparing 
 
 ## Submissions directory — required layout and metadata
 
-Place each submission in `submissions/<directory-name>/`. The directory name should be descriptive (e.g., `2026_03_17_openff-2.3.0_freesolv`). The directory **must** contain a YAML metadata file named `submission.yaml`.
+Place each submission in `submissions/<directory-name>/`. The directory name should be descriptive and typically follows the pattern `YYYY_MM_DD_<force-field>_<system>` (e.g., `2026_03_17_openff-2.3.0_jacs_tyk2`). Each submission **must** contain a YAML metadata file named `submission.yaml`.
 
-Required files and fields
+### Start here: Complete Workflow Guide
 
-- `submissions/<directory-name>/submission.yaml` (required)
-  - Required YAML fields:
-    - `submission_id`: string — unique, kebab-case identifier for this submission
-    - `title`: string — short descriptive title
-    - `summary`: string — short descriptive summary (1–2 sentences)
-    - `tags`: list — relevant tags (e.g., `[asfe, openff-2.3.0, nagl_openff-gnn-am1bcc-1.0.0.pt, openfe, alchemicalarchive]`)
-    - `authors`: list of dicts with `name` and optional `affiliation` and `ORCID`
-    - `date`: string — publication/submission date (ISO 8601 format)
-    - `openfe_version`: string — OpenFE version used
-    - `openmm_version`: string — OpenMM version used (optional)
-    - `openff_toolkit_version`: string — OpenFF toolkit version used
-    - `forcefield`: string — force field used (e.g., `openff-2.3.0`)
-    - `partial_charges`: string — partial charge model used
-    - `network`: string — network identifier
-    - `benchmark_data`: dict with `source_repository`, `set`, and `system` fields
-    - `archive`: dict with `doi` and `archive_provider` fields (long-term archive pointer)
-    - `license`: string — license for the submission (e.g., `CC-BY-4.0`)
-  - Optional fields:
-    - `protocol_settings`: dict or list of dicts with protocol-specific settings
+**New to submissions?** Start with [SUBMISSION_WORKFLOW.md](SUBMISSION_WORKFLOW.md), which provides:
+- Step-by-step guidance through all three submission phases (network creation, computation, results gathering)
+- Working examples from the `2026_03_17_openff-2.3.0_jacs_tyk2` submission
+- Troubleshooting for common issues
+- Reproducible workflow patterns
 
-- Supporting files (optional but recommended):
-  - Python input script: include any custom `.py` file used to generate the submission
-  - JSON or compressed network files: alchemical network definitions
-  - README.md: document any workflow details that deviate from standard examples
+### Metadata & Submission Requirements
 
-Example minimal `submission.yaml`
+For complete documentation on `submission.yaml` fields, requirements, and examples, refer to the [openfe-benchmarks submission guide](https://github.com/OpenFreeEnergy/openfe-benchmarks#submitting-a-new-benchmark).
 
-```yaml
-submission_id: 2026-02-01-example-recycle
-title: Recycled network with openff-2.1.0 and AM1-BCC charges
-summary: |
-  This submission describes a recycled alchemical network prepared with openff-2.1.0
-  and AM1-BCC partial charges. The archive contains X transformations.
-tags: [recycled, openff-2.1.0, asfe, openfe]
-authors:
-  - name: My Name
-    affiliation: My Institution
-date: 2026-02-10
-openfe_version: 1.8.0
-openmm_version: 8.1.1
-openff_toolkit_version: 0.16.0
-forcefield: openff-2.1.0
-partial_charges: AM1-BCC
-network: example-network-id
-benchmark_data:
-  source_repository: https://github.com/OpenFreeEnergy/openfe-benchmarks
-  set: solvation_set
-  system: example-system
-archive:
-  doi: "10.5281/zenodo.example"
-  archive_provider: zenodo
-license: CC-BY-4.0
-protocol_settings:
-  - protocol: AbsoluteSolvationProtocol
-    production_time: "10.0 nanosecond"
-    equilibration_time: "0.5 nanosecond"
-``` 
+### Supporting Files
+
+Each submission directory should contain:
+- `submission.yaml` — metadata file (required)
+- `README.md` — description of the submission and any workflow deviations
+- `create_network/` — planning script and generated network JSON
+- `get_results/` — metadata preparation script and output artifacts
+- `alchemiscale_submission.ipynb` — Jupyter notebook for computation submission (if using Alchemiscale)
 
 ## Examples and recommended scripts
 
 - Refer to `openfe-benchmarks` example scripts (for canonical workflow examples) by setting `script` to the example script path, e.g. `openfe-benchmarks/scripts/_example_rdfe.py`.
 
+## Quick Reference: Three-Phase Workflow
+
+| Phase | Purpose | Input | Output | Key Files |
+|-------|---------|-------|--------|-----------|
+| **1. Network Creation** | Design and generate alchemical transformations | Benchmark system definition | JSON network file | `create_network/plan_*.py`<br/>`alchemical_network_*.json` |
+| **2. Computation** | Run calculations on Alchemiscale infrastructure | Network JSON + Scope | Completed jobs + results | `alchemiscale_submission.ipynb`<br/>Alchemiscale jobs |
+| **3. Results & Metadata** | Gather results and prepare for archive | Network key + computed results | Submission artifacts | `get_results/output/`<br/>`submission.yaml` |
+
+**See [SUBMISSION_WORKFLOW.md](SUBMISSION_WORKFLOW.md) for detailed step-by-step guidance.**
+
 ## Checklist before creating a pull request
 
-1. Ensure `submissions/<directory-name>/submission.yaml` exists with all required fields.
-2. Verify the `submission_id` is unique and follows kebab-case format.
-3. Include all required software versions: `openfe_version`, `openmm_version`, `openff_toolkit_version`.
-4. Provide complete `benchmark_data` provenance (source repository, set, system).
-5. Populate `archive` with at least a DOI or archive provider URL.
-6. Include any custom `.py` input script or planning script in the submission directory.
-7. Add a short README or notes in the submission directory if the workflow deviates from the examples.
-8. Use valid ISO 8601 date format (YYYY-MM-DD) in the `date` field.
+Follow this checklist systematically before submitting your submission as a pull request. For detailed workflow guidance, see [SUBMISSION_WORKFLOW.md](SUBMISSION_WORKFLOW.md). For submission metadata requirements, see the [openfe-benchmarks submission guide](https://github.com/OpenFreeEnergy/openfe-benchmarks#submitting-a-new-benchmark).
+
+### Network Creation & Validation
+
+- [ ] Network generation script is included in `submissions/<directory>/create_network/`
+- [ ] Network JSON file exists and is valid JSON (e.g., `alchemical_network_jacs_set_tyk2.json`)
+- [ ] Network file generates without errors: `python create_network/plan_*.py`
+- [ ] All molecular components are properly parameterized
+- [ ] Network file size is reasonable for the transformation count
+
+### Computation & Results
+
+- [ ] Alchemiscale submission completed successfully (all jobs finished)
+- [ ] Network archive exists: `AlchemicalNetwork-<gufe-hash>.json.bz2`
+- [ ] Results file generated: `computational_results.json` with expected data
+- [ ] Scope key(s) documented: `alchemicalnetwork_scopekeys.txt`
+- [ ] Log files preserved: `get_results/log.txt`
+
+### Metadata & Documentation
+
+- [ ] `submission.yaml` exists with all required fields (see [openfe-benchmarks guide](https://github.com/OpenFreeEnergy/openfe-benchmarks#submitting-a-new-benchmark))
+- [ ] `README.md` in submission directory describes the benchmark and any workflow deviations
+- [ ] All scripts reference correct `openfe-benchmarks` locations and versions
+- [ ] No hardcoded credentials or secrets in any files
+
+### Directory Structure
+
+- [ ] `create_network/` contains planning script and generated network
+- [ ] `get_results/` contains metadata preparation script and output artifacts
+- [ ] `alchemiscale_submission.ipynb` for Alchemiscale submission (if applicable)
+- [ ] No temporary files, credentials, or `.DS_Store` files included
+
+## Examples to Reference
+
+- **RBFE example**: `submissions/2026_03_17_openff-2.3.0_jacs_tyk2/`
+- **ASFE examples**: `submissions/2026_03_17_openff-2.3.0_freesolv/`, `submissions/2026_03_17_openff-2.3.0_mnsol/`
 
 ## Development notes
 
