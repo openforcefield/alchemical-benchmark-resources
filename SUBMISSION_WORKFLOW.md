@@ -51,7 +51,7 @@ Place the generated network and planning script in a `create_network/` subdirect
 submissions/2026_03_17_openff-2.3.0_jacs_tyk2/
 ├── create_network/
 │   ├── plan_tyk2_rbfe.py           # Original planning script
-|   |   log.txt
+│   ├── log.txt
 │   └── alchemical_network_jacs_set_tyk2.json  # Generated network (gitignored)
 ```
 

@@ -22,8 +22,10 @@ See the [Standard Workflow](../../SUBMISSION_WORKFLOW.md)
 ## Files
 
 - `create_network/plan_tyk2_rbfe.py` — Planning script adapted from `openfe-benchmarks` (modified to single TYK2 system)
-- `create_network/alchemical_network_jacs_set_tyk2.json` — Generated network definition
-- `alchemiscale_submission.ipynb` — Jupyter notebook for Alchemiscale submission
+- `create_network/log.txt` — Log output from planning script
 - `get_results/_no_test_example_prepare_metadata.py` — Metadata preparation orchestrator
-- `get_results/output/` — Results and archives (generated during computation phase)
-- `submission.yaml` — Submission metadata
+- `get_results/output/submission.yaml` — Submission metadata
+- `get_results/output/zenodo_description.md` — Submission metadata
+- `get_results/output/computational_results.json` — Results file
+- `get_results/log.txt` — Log output from work-up script
+- `alchemiscale_submission.ipynb` - Notebook for submitting alchemical networks to alchemiscale and monitoring their progress.
