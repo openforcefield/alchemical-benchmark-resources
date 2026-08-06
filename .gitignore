@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# ignore network files
+alchemical*.json*
+Alchemical*.json*
+
 # Distribution / packaging
 .Python
 build/

@@ -6,9 +6,9 @@ This guide walks through the complete process of preparing and submitting an alc
 
 A complete submission workflow has three main phases:
 
-1. **Network Creation Phase** — Design and generate the alchemical network
+1. **Network Creation Phase** — Design and generate the alchemical network - merge PR for review
 2. **Computation Phase** — Run calculations on Alchemiscale infrastructure
-3. **Results & Metadata Phase** — Gather results and prepare submission artifacts
+3. **Results & Metadata Phase** — Gather results and prepare submission artifacts - merge PR without review
 
 ## Phase 1: Network Creation
 
@@ -20,21 +20,12 @@ Start with a planning script that generates your alchemical network. The network
 
 **Key decisions when creating your plan script:**
 
-- **Benchmark system**: Which benchmark set and system? (e.g., `jacs_set/tyk2`)
+- **Benchmark system**: Which benchmark set and system(s)? (e.g., `jacs_set/tyk2`)
 - **Force field**: Which OpenFF force field version? (e.g., `openff-2.3.0`)
-- **Partial charges**: Which charge model? (e.g., `nagl_openff-gnn-am1bcc-1.0.0.pt`)
-- **Protocol repeats**: How many replicate runs? (Start with 1 for testing)
+- **Partial charges**: Which charge model? See openfe-benchmarks for defined options, e.g., `nagl_openff-gnn-am1bcc-1.0.0.pt`
 - **Solvent**: Which solvent model? (Most commonly neutral with salt, e.g., `SolventComponent(neutralize=True)`)
+- **Protocol repeats**: How many replicate runs? Commonly, 1 is used and replicates are handled on alchemiscale. If running on an HPC, consider 3
 
-**Example snippet from `plan_tyk2_rbfe.py`:**
-
-```python
-SOLVENT = SolventComponent(neutralize=True)
-BENCHMARK_SET = "jacs_set"
-BENCHMARK_SYS = "tyk2"
-PARTIAL_CHARGE = "nagl_openff-gnn-am1bcc-1.0.0.pt"
-FORCEFIELD = "openff-2.3.0"
-```
 
 ### 1.2 Generate and Validate the Network
 
@@ -60,16 +51,19 @@ Place the generated network and planning script in a `create_network/` subdirect
 submissions/2026_03_17_openff-2.3.0_jacs_tyk2/
 ├── create_network/
 │   ├── plan_tyk2_rbfe.py           # Original planning script
-│   └── alchemical_network_jacs_set_tyk2.json  # Generated network
+│   ├── log.txt
+│   └── alchemical_network_jacs_set_tyk2.json  # Generated network (gitignored)
 ```
+
+### 1.4 Submit a PR for Review
+
+Commit the `plan_tyk2_rbfe.py` and associated `log.txt` files and create a PR for review by the science team. These are expensive calculations and we want to ensure that our target experiments are successful.
 
 ## Phase 2: Computation Phase
 
 ### 2.1 Set Up Alchemiscale Credentials
 
 Before running on Alchemiscale, configure your credentials as described in the [Alchemiscale User Guide](https://docs.alchemiscale.org/en/stable/user_guide/getting_started.html#instantiating-an-alchemiscaleclient).
-
-Save credentials to your system (typically `~/.config/alchemiscale/` or environment variables `ALCHEMISCALE_ID` and `ALCHEMISCALE_KEY`).
 
 ### 2.2 Define Scope
 
@@ -79,7 +73,7 @@ An Alchemiscale Scope is defined as `Scope(org, campaign, project)` and tracks y
 
 Where:
 - **org** = Organization name (e.g., `'openff'`)
-- **campaign** = Campaign name, typically the forcefield version (e.g., `'openff_2_3_0'`)
+- **campaign** = Campaign name, maybe the forcefield version (e.g., `'openff_2_3_0'`)
 - **project** = Specific network identifier (e.g., `'jacs_tyk2'`)
 
 When you submit the same scope multiple times, Alchemiscale tracks different runs with unique identifiers (gufe tokens).
@@ -101,40 +95,17 @@ Use an interactive notebook (e.g., `alchemiscale_submission.ipynb`) to:
 4. Submit the network and transformations
 5. Monitor execution
 
-**Example workflow in notebook:**
+After submission, monitor job completion through Alchemiscale's web interface or programmatically (See other notebooks in this repository).
 
-```python
-from alchemiscale import AlchemiscaleClient, Scope
-import openfe
+### 2.4 Add a Restart Pattern
 
-# Connect to Alchemiscale
-asc = AlchemiscaleClient("https://api.alchemiscale.org", 
-                         user_id=user_id, 
-                         user_key=user_key)
-
-# Load network
-network = openfe.AlchemicalNetwork.from_json("alchemical_network_jacs_set_tyk2.json")
-
-# Define scope
-scope = Scope("openff", "openff_2_3_0_v2", "jacs_tyk2")
-
-# Submit
-network_key = asc.push_network(network, scope)
-
-# Monitor (typically via web dashboard)
-```
-
-After submission, monitor job completion through Alchemiscale's web interface or programmatically.
+Consider adding a restart pattern so that if an error occurs for a known hardware reason, the calculation is automatically resubmit.
 
 ## Phase 3: Results & Metadata Phase
 
 ### 3.1 Gather Alchemical Archive
 
-Once all computations complete, retrieve the full network archive using the gather script:
-
-```bash
-python get_results/_no_test_example_prepare_metadata.py
-```
+Once all computations complete, retrieve the full network archive using gather scripts like `_no_test_example_rbfe_submission.py` (always get a current version from the repository).
 
 This script:
 1. Retrieves the network from Alchemiscale using the network key
@@ -149,15 +120,16 @@ This script:
 
 ### 3.2 Prepare Submission Metadata
 
-The metadata preparation script generates `submission.yaml` with all required submission fields. For complete documentation on metadata fields, requirements, and examples, see the [OpenFE Benchmarks Submission Guide](https://github.com/OpenFreeEnergy/openfe-benchmarks#submitting-a-new-benchmark).
+The metadata preparation script generates `submission.yaml` with all required submission fields, except those marked with `TODO`. For complete documentation on metadata fields, requirements, and examples, see the [OpenFE Benchmarks Repository](https://github.com/OpenFreeEnergy/openfe-benchmarks).
 
 ### 3.3 Generate Zenodo Description (Optional but Recommended)
 
 The metadata script also generates `zenodo_description.md` for use when archiving to Zenodo:
 
-- Summarizes the network and calculation settings
+- Summarizes the network and calculation settings, note the `summary_suffix` field to add additional details such as a reference to this repository.
 - Documents the computation metadata
 - Useful for long-term archival and citations
+- Contains `TODO` items before copy/paste
 
 ### 3.4 Organize Final Submission
 
@@ -165,67 +137,22 @@ Your final submission directory should look like:
 
 ```
 submissions/2026_03_17_openff-2.3.0_jacs_tyk2/
-├── README.md                           # Overview and workflow notes
-├── submission.yaml                      # Submission metadata (required)
+├── README.md                           # (required) Overview and workflow notes
 ├── create_network/
-│   ├── plan_tyk2_rbfe.py               # Planning script used
-│   └── alchemical_network_jacs_set_tyk2.json  # Generated network
+│   ├── plan_tyk2_rbfe.py               # (required) Planning script used
+│   ├── log.txt                         # (required) Log file from running planning script
+│   └── alchemical_network_jacs_set_tyk2.json  # (do not commit) Generated network
 ├── get_results/
-│   ├── _no_test_example_prepare_metadata.py  # Metadata preparation script
-│   ├── log.txt                         # Execution log
+│   ├── _no_test_example_prepare_metadata.py  # (required) Metadata preparation script
+│   ├── log.txt                         # (required) Execution log
 │   └── output/
-│       ├── AlchemicalNetwork-<hash>.json.bz2  # Network archive
-│       ├── computational_results.json   # Extracted results
-│       └── zenodo_description.md       # (Optional) Archive description
-├── alchemiscale_submission.ipynb       # Notebook for compute submission
-└── alchemicalnetwork_scopekeys.txt     # Record of Scope keys used
+│       ├── AlchemicalNetwork-<hash>.json.bz2  # (do not commit) Network archive
+│       ├── computational_results.json   # (required) Extracted results
+│       ├── submission.yaml             # (required) Submission metadata
+│       └── zenodo_description.md       # (required) Archive description
+├── alchemiscale_submission.ipynb       # (required) Notebook for compute submission
+└── alchemicalnetwork_scopekeys.txt     # (required) Record of Scope keys used
 ```
-
-## Pre-Submission Checklist
-
-Before creating a pull request to `openfe-benchmarks`:
-
-### Metadata & Documentation
-
-- [ ] `submission.yaml` exists in submission directory
-- [ ] For complete metadata field requirements, see [openfe-benchmarks submission documentation](https://github.com/OpenFreeEnergy/openfe-benchmarks#submission-metadata)
-- [ ] `README.md` in submission directory documents any workflow deviations
-
-### Files & Structure
-
-- [ ] `create_network/` contains:
-  - [ ] Planning script that generated the network
-  - [ ] Generated alchemical network JSON file
-- [ ] `get_results/` contains:
-  - [ ] Metadata preparation script with clear network key and parameters
-  - [ ] `output/` subdirectory with:
-    - [ ] Compressed network archive (`.json.bz2`)
-    - [ ] `computational_results.json` with actual results
-- [ ] All scripts are reproducible and reference `openfe-benchmarks` utilities where applicable
-
-### Workflow & Reproducibility
-
-- [ ] Verify network generation runs without errors
-- [ ] Confirm all transformations in network are valid
-- [ ] Document any custom parameters or modifications in README.md
-- [ ] Ensure scope keys are recorded in `alchemicalnetwork_scopekeys.txt`
-- [ ] Verify Zenodo archive metadata is complete (if archiving externally)
-
-### Code Quality
-
-- [ ] No temporary or debug files included
-- [ ] All script file paths reference correct locations in openfe-benchmarks
-- [ ] No hardcoded paths or credentials in scripts
-
-## Common Variations & Examples
-
-### Solvation Free Energy (ASFE) vs Relative Binding Free Energy (RBFE)
-
-This guide focuses on RBFE (as in the `jacs_tyk2` example), but ASFE submissions follow similar structure:
-
-- Use `plan_asfe_*.py` scripts instead of `plan_rbfe_*.py`
-- Set `network: solvation_set/<system_name>`
-- Protocol will be `AbsoluteSolvationProtocol` instead of `RelativeHybridTopologyProtocol`
 
 ### Multiple Force Fields or Charge Models
 
@@ -237,52 +164,6 @@ Create separate submission directories for each:
 submissions/2026_07_15_openff-3.0.0-alpha1b_opc3/
 submissions/2026_07_15_openff-3.0.0-alpha1b_tip3p/
 ```
-
-## Troubleshooting
-
-### Network Fails Validation
-
-**Problem**: The planning script throws validation errors when generating the network.
-
-**Solutions**:
-- Check that all molecules in the benchmark system are valid
-- Verify the force field and charge model combination is supported
-- Review protein preparation (is PDB valid?)
-- Check for missing cofactors or special handling needed
-
-### Alchemiscale Connection Issues
-
-**Problem**: Cannot connect to Alchemiscale API.
-
-**Solutions**:
-- Verify credentials are correctly configured in environment or config file
-- Check network connectivity to `https://api.alchemiscale.org`
-- Consult [Alchemiscale User Guide](https://docs.alchemiscale.org/en/stable/user_guide/index.html)
-
-### Results Gathering Fails
-
-**Problem**: `_no_test_example_prepare_metadata.py` cannot find network or results.
-
-**Solutions**:
-- Verify the `NETWORK_KEY` in the script matches the key from Alchemiscale submission
-- Confirm all jobs in Alchemiscale have completed successfully
-- Check network connectivity and credentials
-
-### Missing or Incomplete Results
-
-**Problem**: `computational_results.json` is missing entries or truncated.
-
-**Solutions**:
-- Verify all transformation calculations completed in Alchemiscale
-- Re-run the gather script or check logs for errors
-- May indicate partial failure — review Alchemiscale job logs
-
-## References
-
-- [OpenFE Documentation](https://docs.openfree.energy/)
-- [Alchemiscale User Guide](https://docs.alchemiscale.org/en/stable/user_guide/index.html)
-- [OpenFE Benchmarks Repository](https://github.com/OpenFreeEnergy/openfe-benchmarks)
-- [OpenFF Toolkit Documentation](https://open-forcefield-toolkit.readthedocs.io/)
 
 ## Support
 
