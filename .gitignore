@@ -7,7 +7,8 @@ __pycache__/
 *.so
 
 # ignore network files
-*.json*
+alchemical*.json*
+Alchemical*.json*
 
 # Distribution / packaging
 .Python
