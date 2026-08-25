@@ -39,6 +39,7 @@ Each submission directory should contain:
 - `create_network/` — planning script and generated network JSON
 - `get_results/` — metadata preparation script and output artifacts
 - `alchemiscale_submission.ipynb` — Jupyter notebook for computation submission (if using Alchemiscale)
+- `environment.yaml` — Conda env used to create and analyze results
 
 ## Examples and recommended scripts
 

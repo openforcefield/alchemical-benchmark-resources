@@ -150,8 +150,13 @@ submissions/2026_03_17_openff-2.3.0_jacs_tyk2/
 │       ├── computational_results.json   # (required) Extracted results
 │       ├── submission.yaml             # (required) Submission metadata
 │       └── zenodo_description.md       # (required) Archive description
+├── plot/
+│   ├── plot_*.py                       # (required) Script to make plots
+│   └── output/
+│       └── *.png                       # (required) Plots of data
 ├── alchemiscale_submission.ipynb       # (required) Notebook for compute submission
-└── alchemicalnetwork_scopekeys.txt     # (required) Record of Scope keys used
+├── alchemicalnetwork_scopekeys.txt     # (required) Record of Scope keys used
+└── environment.yaml                    # (required) Environment used to analyze results
 ```
 
 ### Multiple Force Fields or Charge Models
