@@ -33,7 +33,7 @@ openff_toolkit_version: "0.18"
 ## Recommended Descriptors
 forcefield: ["openff-3.0.0-alpha1b", "tip3p.offxml"]
 small_molecule_forcefield: "openff-3.0.0-alpha1b"
-partial_charges: TODO
+partial_charges: nagl_openff-gnn-am1bcc-1.0.0.pt
 mapper: "KartografAtomMapper 1.2.0 (LSA)"
 
 
