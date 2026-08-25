@@ -1,0 +1,10 @@
+{
+  "rbfe_jacs_set_bace": "AlchemicalNetwork-47b82fc985880c624d46e880a904b41a-openff-openff_2_1_1_tip3p-rbfe_jacs_set_bace",
+  "rbfe_jacs_set_cdk2": "AlchemicalNetwork-a77509bb2c2af02f4d2ff562d84904da-openff-openff_2_1_1_tip3p-rbfe_jacs_set_cdk2",
+  "rbfe_jacs_set_jnk1": "AlchemicalNetwork-f61c9321399bd7e0e7ce30320ce5cd6f-openff-openff_2_1_1_tip3p-rbfe_jacs_set_jnk1",
+  "rbfe_jacs_set_mcl1": "AlchemicalNetwork-c35b0418d0b0187aa3e4ff756cc6a09a-openff-openff_2_1_1_tip3p-rbfe_jacs_set_mcl1",
+  "rbfe_jacs_set_p38": "AlchemicalNetwork-c24976d53044e75c6250c575efd12cd5-openff-openff_2_1_1_tip3p-rbfe_jacs_set_p38",
+  "rbfe_jacs_set_ptp1b": "AlchemicalNetwork-50b46f132fc0aef754007207960fb160-openff-openff_2_1_1_tip3p-rbfe_jacs_set_ptp1b",
+  "rbfe_jacs_set_thrombin": "AlchemicalNetwork-9efd2cdc2013758827f60221d2f7e026-openff-openff_2_1_1_tip3p-rbfe_jacs_set_thrombin",
+  "rbfe_jacs_set_tyk2": "AlchemicalNetwork-88dbd6f8077f13dda9dd0161cbae6c27-openff-openff_2_1_1_tip3p-rbfe_jacs_set_tyk2"
+}
