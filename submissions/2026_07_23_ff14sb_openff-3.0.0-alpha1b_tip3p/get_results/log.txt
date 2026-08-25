@@ -1,0 +1,353 @@
+2026-08-05 11:38:02 - __main__ - INFO - Starting metadata preparation workflow
+2026-08-05 11:38:02 - __main__ - INFO - ======================================================================
+2026-08-05 11:38:02 - __main__ - INFO - Step: Pulling alchemical network
+2026-08-05 11:38:02 - __main__ - INFO - ======================================================================
+2026-08-05 11:38:02 - openfe_benchmarks.scripts._tmp_alchemiscale_gather - INFO - Loading network from key: AlchemicalNetwork-8f0230086292763f9be6b738348307e8-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_thrombin
+2026-08-05 11:38:04 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:38:04 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 11:38:04 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 11:38:04 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-6e2a93f1a138ba6c669c3fd9439dfdfe (name: '5')
+2026-08-05 11:38:04 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-0346c06a4477eb67b5999ad56e699f83 (name: '3a')
+2026-08-05 11:38:05 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:38:05 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8ce3b6fecc25d2f2ad099538a32bdc2f (name: '6a')
+2026-08-05 11:38:05 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-957d39de3213dba8bba62d4feea9c4ed (name: '1d')
+2026-08-05 11:38:05 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a8662be3826007484601dfe4270363ba (name: '3b')
+2026-08-05 11:38:05 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b4d6fab0e673e750b4fbccacff373ad7 (name: '7a')
+2026-08-05 11:38:05 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-501d14d3409daf429ae4f17af6a33d1f (name: '1c')
+2026-08-05 11:38:05 - openfe_benchmarks.scripts._tmp_alchemiscale_gather - INFO - Creating archives
+2026-08-05 11:38:05 - openfe_benchmarks.scripts._tmp_alchemiscale_gather - INFO - Creating archive for network: AlchemicalNetwork-8f0230086292763f9be6b738348307e8-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_thrombin
+2026-08-05 11:38:29 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 11:38:29 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8ce3b6fecc25d2f2ad099538a32bdc2f (name: '6a')
+2026-08-05 11:38:30 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-6e2a93f1a138ba6c669c3fd9439dfdfe (name: '5')
+2026-08-05 11:38:30 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:38:31 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-501d14d3409daf429ae4f17af6a33d1f (name: '1c')
+2026-08-05 11:38:31 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:38:32 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:38:32 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:38:34 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-501d14d3409daf429ae4f17af6a33d1f (name: '1c')
+2026-08-05 11:38:34 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-957d39de3213dba8bba62d4feea9c4ed (name: '1d')
+2026-08-05 11:38:36 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:38:36 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 11:38:38 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:38:38 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 11:38:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b4d6fab0e673e750b4fbccacff373ad7 (name: '7a')
+2026-08-05 11:38:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 11:38:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a8662be3826007484601dfe4270363ba (name: '3b')
+2026-08-05 11:38:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-0346c06a4477eb67b5999ad56e699f83 (name: '3a')
+2026-08-05 11:38:43 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 11:38:43 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8ce3b6fecc25d2f2ad099538a32bdc2f (name: '6a')
+2026-08-05 11:38:45 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a8662be3826007484601dfe4270363ba (name: '3b')
+2026-08-05 11:38:45 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-0346c06a4477eb67b5999ad56e699f83 (name: '3a')
+2026-08-05 11:38:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b4d6fab0e673e750b4fbccacff373ad7 (name: '7a')
+2026-08-05 11:38:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 11:38:48 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:38:48 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 11:38:50 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-501d14d3409daf429ae4f17af6a33d1f (name: '1c')
+2026-08-05 11:38:50 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:38:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a8662be3826007484601dfe4270363ba (name: '3b')
+2026-08-05 11:38:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:38:54 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:38:54 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:38:55 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b4d6fab0e673e750b4fbccacff373ad7 (name: '7a')
+2026-08-05 11:38:55 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 11:38:57 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:38:57 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-957d39de3213dba8bba62d4feea9c4ed (name: '1d')
+2026-08-05 11:38:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a8662be3826007484601dfe4270363ba (name: '3b')
+2026-08-05 11:38:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:38:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b4d6fab0e673e750b4fbccacff373ad7 (name: '7a')
+2026-08-05 11:38:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 11:38:59 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-6e2a93f1a138ba6c669c3fd9439dfdfe (name: '5')
+2026-08-05 11:38:59 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-0346c06a4477eb67b5999ad56e699f83 (name: '3a')
+2026-08-05 11:39:00 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-501d14d3409daf429ae4f17af6a33d1f (name: '1c')
+2026-08-05 11:39:00 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-957d39de3213dba8bba62d4feea9c4ed (name: '1d')
+2026-08-05 11:39:02 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-6e2a93f1a138ba6c669c3fd9439dfdfe (name: '5')
+2026-08-05 11:39:02 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:39:04 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 11:39:04 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8ce3b6fecc25d2f2ad099538a32bdc2f (name: '6a')
+2026-08-05 11:39:05 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:39:05 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 11:39:06 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:39:06 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-957d39de3213dba8bba62d4feea9c4ed (name: '1d')
+2026-08-05 11:39:08 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-6e2a93f1a138ba6c669c3fd9439dfdfe (name: '5')
+2026-08-05 11:39:08 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-0346c06a4477eb67b5999ad56e699f83 (name: '3a')
+2026-08-05 11:39:10 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 11:39:10 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8ce3b6fecc25d2f2ad099538a32bdc2f (name: '6a')
+2026-08-05 11:39:10 - openfe_benchmarks.scripts._tmp_alchemiscale_gather - INFO - Archive for network AlchemicalNetwork-8f0230086292763f9be6b738348307e8-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_thrombin created and saved to output/AlchemicalNetwork-8f0230086292763f9be6b738348307e8-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_thrombin.json.bz2
+2026-08-05 11:39:10 - openfe_benchmarks.scripts._tmp_alchemiscale_gather - INFO - Loading network from key: AlchemicalNetwork-a1efafd1298d735c7032cebe52be9665-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_tyk2
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-591d6e080a823c1f3fabc983e9ca8026 (name: 'jmc_27')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-35d748bf93674d07ed1602927d22c51c (name: 'ejm_44')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9774a51ba8121618bbd9505e6d423577 (name: 'ejm_43')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-69dd3dd9fa6b99e9ed4a1e4d115e83c8 (name: 'ejm_49')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-d27d55f5051146ffbf0a95ed3ad5867c (name: 'ejm_48')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-fe7dcef556620b5461b9cf616fe6d977 (name: 'ejm_54')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-392aede71289adf8b44a869fdeb31008 (name: 'ejm_55')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b63f07972256b73d44e87933f49f000a (name: 'jmc_30')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a133f223f4e8b866c1016df4780e80b9 (name: 'jmc_28')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f2ccb2f86211be9a57b675793661df3c (name: 'ejm_45')
+2026-08-05 11:39:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9af47deca1384f50ecb325bf4c4ef9d4 (name: 'ejm_47')
+2026-08-05 11:39:13 - openfe_benchmarks.scripts._tmp_alchemiscale_gather - INFO - Creating archives
+2026-08-05 11:39:13 - openfe_benchmarks.scripts._tmp_alchemiscale_gather - INFO - Creating archive for network: AlchemicalNetwork-a1efafd1298d735c7032cebe52be9665-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_tyk2
+2026-08-05 11:39:44 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 11:39:44 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-591d6e080a823c1f3fabc983e9ca8026 (name: 'jmc_27')
+2026-08-05 11:39:45 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-591d6e080a823c1f3fabc983e9ca8026 (name: 'jmc_27')
+2026-08-05 11:39:45 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 11:39:45 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:39:45 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-69dd3dd9fa6b99e9ed4a1e4d115e83c8 (name: 'ejm_49')
+2026-08-05 11:39:46 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9774a51ba8121618bbd9505e6d423577 (name: 'ejm_43')
+2026-08-05 11:39:46 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-35d748bf93674d07ed1602927d22c51c (name: 'ejm_44')
+2026-08-05 11:39:48 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a133f223f4e8b866c1016df4780e80b9 (name: 'jmc_28')
+2026-08-05 11:39:48 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 11:39:50 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:39:50 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9774a51ba8121618bbd9505e6d423577 (name: 'ejm_43')
+2026-08-05 11:39:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:39:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:39:54 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-392aede71289adf8b44a869fdeb31008 (name: 'ejm_55')
+2026-08-05 11:39:54 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:39:55 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-35d748bf93674d07ed1602927d22c51c (name: 'ejm_44')
+2026-08-05 11:39:55 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:39:56 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:39:56 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9af47deca1384f50ecb325bf4c4ef9d4 (name: 'ejm_47')
+2026-08-05 11:39:57 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:39:57 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9774a51ba8121618bbd9505e6d423577 (name: 'ejm_43')
+2026-08-05 11:39:59 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 11:39:59 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-591d6e080a823c1f3fabc983e9ca8026 (name: 'jmc_27')
+2026-08-05 11:40:03 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-fe7dcef556620b5461b9cf616fe6d977 (name: 'ejm_54')
+2026-08-05 11:40:03 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:40:05 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-fe7dcef556620b5461b9cf616fe6d977 (name: 'ejm_54')
+2026-08-05 11:40:05 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-392aede71289adf8b44a869fdeb31008 (name: 'ejm_55')
+2026-08-05 11:40:08 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9774a51ba8121618bbd9505e6d423577 (name: 'ejm_43')
+2026-08-05 11:40:08 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-35d748bf93674d07ed1602927d22c51c (name: 'ejm_44')
+2026-08-05 11:40:10 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:10 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-69dd3dd9fa6b99e9ed4a1e4d115e83c8 (name: 'ejm_49')
+2026-08-05 11:40:11 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-fe7dcef556620b5461b9cf616fe6d977 (name: 'ejm_54')
+2026-08-05 11:40:11 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-392aede71289adf8b44a869fdeb31008 (name: 'ejm_55')
+2026-08-05 11:40:11 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:11 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-69dd3dd9fa6b99e9ed4a1e4d115e83c8 (name: 'ejm_49')
+2026-08-05 11:40:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-35d748bf93674d07ed1602927d22c51c (name: 'ejm_44')
+2026-08-05 11:40:13 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:14 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f2ccb2f86211be9a57b675793661df3c (name: 'ejm_45')
+2026-08-05 11:40:14 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:16 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:16 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 11:40:18 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 11:40:18 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:19 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:19 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 11:40:19 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b63f07972256b73d44e87933f49f000a (name: 'jmc_30')
+2026-08-05 11:40:19 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a133f223f4e8b866c1016df4780e80b9 (name: 'jmc_28')
+2026-08-05 11:40:20 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-fe7dcef556620b5461b9cf616fe6d977 (name: 'ejm_54')
+2026-08-05 11:40:20 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:40:22 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:40:22 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9af47deca1384f50ecb325bf4c4ef9d4 (name: 'ejm_47')
+2026-08-05 11:40:24 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 11:40:24 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b63f07972256b73d44e87933f49f000a (name: 'jmc_30')
+2026-08-05 11:40:25 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a133f223f4e8b866c1016df4780e80b9 (name: 'jmc_28')
+2026-08-05 11:40:25 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 11:40:29 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-d27d55f5051146ffbf0a95ed3ad5867c (name: 'ejm_48')
+2026-08-05 11:40:29 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:30 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-392aede71289adf8b44a869fdeb31008 (name: 'ejm_55')
+2026-08-05 11:40:30 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:40:32 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:40:32 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:40:34 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f2ccb2f86211be9a57b675793661df3c (name: 'ejm_45')
+2026-08-05 11:40:34 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:36 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:40:36 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:36 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-d27d55f5051146ffbf0a95ed3ad5867c (name: 'ejm_48')
+2026-08-05 11:40:36 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:40:38 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:38 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9af47deca1384f50ecb325bf4c4ef9d4 (name: 'ejm_47')
+2026-08-05 11:40:40 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:40 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9af47deca1384f50ecb325bf4c4ef9d4 (name: 'ejm_47')
+2026-08-05 11:40:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-d27d55f5051146ffbf0a95ed3ad5867c (name: 'ejm_48')
+2026-08-05 11:40:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 11:40:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:43 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:40:43 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-69dd3dd9fa6b99e9ed4a1e4d115e83c8 (name: 'ejm_49')
+2026-08-05 11:40:44 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:40:44 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:40:45 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 11:40:45 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b63f07972256b73d44e87933f49f000a (name: 'jmc_30')
+2026-08-05 11:40:46 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-591d6e080a823c1f3fabc983e9ca8026 (name: 'jmc_27')
+2026-08-05 11:40:46 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 11:40:48 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-d27d55f5051146ffbf0a95ed3ad5867c (name: 'ejm_48')
+2026-08-05 11:40:48 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b63f07972256b73d44e87933f49f000a (name: 'jmc_30')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a133f223f4e8b866c1016df4780e80b9 (name: 'jmc_28')
+2026-08-05 11:40:51 - openfe_benchmarks.scripts._tmp_alchemiscale_gather - INFO - Archive for network AlchemicalNetwork-a1efafd1298d735c7032cebe52be9665-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_tyk2 created and saved to output/AlchemicalNetwork-a1efafd1298d735c7032cebe52be9665-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_tyk2.json.bz2
+2026-08-05 11:40:51 - __main__ - INFO - ✓ Pulling alchemical network completed successfully
+
+2026-08-05 11:40:51 - __main__ - INFO - ======================================================================
+2026-08-05 11:40:51 - __main__ - INFO - Step: Generating computational_results.json
+2026-08-05 11:40:51 - __main__ - INFO - ======================================================================
+2026-08-05 11:40:51 - openfe_benchmarks.scripts.generate_results_archives - INFO - Loading archive:output/AlchemicalNetwork-8f0230086292763f9be6b738348307e8-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_thrombin.json.bz2
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-6e2a93f1a138ba6c669c3fd9439dfdfe (name: '5')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-0346c06a4477eb67b5999ad56e699f83 (name: '3a')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8ce3b6fecc25d2f2ad099538a32bdc2f (name: '6a')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-957d39de3213dba8bba62d4feea9c4ed (name: '1d')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a8662be3826007484601dfe4270363ba (name: '3b')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b4d6fab0e673e750b4fbccacff373ad7 (name: '7a')
+2026-08-05 11:40:51 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-501d14d3409daf429ae4f17af6a33d1f (name: '1c')
+2026-08-05 11:40:51 - openfe_benchmarks.scripts.generate_results_archives - INFO - Extracting results from archive
+2026-08-05 11:40:51 - openfe_benchmarks.scripts.generate_results_archives - INFO - Loading archive:output/AlchemicalNetwork-a1efafd1298d735c7032cebe52be9665-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_tyk2.json.bz2
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-591d6e080a823c1f3fabc983e9ca8026 (name: 'jmc_27')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-35d748bf93674d07ed1602927d22c51c (name: 'ejm_44')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9774a51ba8121618bbd9505e6d423577 (name: 'ejm_43')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-69dd3dd9fa6b99e9ed4a1e4d115e83c8 (name: 'ejm_49')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-d27d55f5051146ffbf0a95ed3ad5867c (name: 'ejm_48')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-fe7dcef556620b5461b9cf616fe6d977 (name: 'ejm_54')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-392aede71289adf8b44a869fdeb31008 (name: 'ejm_55')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b63f07972256b73d44e87933f49f000a (name: 'jmc_30')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a133f223f4e8b866c1016df4780e80b9 (name: 'jmc_28')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f2ccb2f86211be9a57b675793661df3c (name: 'ejm_45')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9af47deca1384f50ecb325bf4c4ef9d4 (name: 'ejm_47')
+2026-08-05 11:40:52 - openfe_benchmarks.scripts.generate_results_archives - INFO - Extracting results from archive
+2026-08-05 11:40:52 - openfe_benchmarks.scripts.generate_results_archives - INFO - System groups and names are set per archive from systems input
+2026-08-05 11:40:52 - openfe_benchmarks.scripts.generate_results_archives - INFO - Writing compressed results to: output/computational_results.json.bz2
+2026-08-05 11:40:52 - openfe_benchmarks.scripts.generate_results_archives - INFO - Done! Found 36 DDG entries and 27 DG entries
+2026-08-05 11:40:52 - __main__ - INFO - ✓ Generating computational_results.json completed successfully
+
+2026-08-05 11:40:52 - __main__ - INFO - ======================================================================
+2026-08-05 11:40:52 - __main__ - INFO - Step: Generating submission metadata
+2026-08-05 11:40:52 - __main__ - INFO - ======================================================================
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-6e2a93f1a138ba6c669c3fd9439dfdfe (name: '5')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-0346c06a4477eb67b5999ad56e699f83 (name: '3a')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8ce3b6fecc25d2f2ad099538a32bdc2f (name: '6a')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-957d39de3213dba8bba62d4feea9c4ed (name: '1d')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a8662be3826007484601dfe4270363ba (name: '3b')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b4d6fab0e673e750b4fbccacff373ad7 (name: '7a')
+2026-08-05 11:40:52 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-501d14d3409daf429ae4f17af6a33d1f (name: '1c')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-591d6e080a823c1f3fabc983e9ca8026 (name: 'jmc_27')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-35d748bf93674d07ed1602927d22c51c (name: 'ejm_44')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9774a51ba8121618bbd9505e6d423577 (name: 'ejm_43')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-69dd3dd9fa6b99e9ed4a1e4d115e83c8 (name: 'ejm_49')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-d27d55f5051146ffbf0a95ed3ad5867c (name: 'ejm_48')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-fe7dcef556620b5461b9cf616fe6d977 (name: 'ejm_54')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-392aede71289adf8b44a869fdeb31008 (name: 'ejm_55')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b63f07972256b73d44e87933f49f000a (name: 'jmc_30')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a133f223f4e8b866c1016df4780e80b9 (name: 'jmc_28')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f2ccb2f86211be9a57b675793661df3c (name: 'ejm_45')
+2026-08-05 11:40:58 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9af47deca1384f50ecb325bf4c4ef9d4 (name: 'ejm_47')
+2026-08-05 11:41:05 - openfe_benchmarks.scripts.prepare_metadata_submission - INFO - Processed 2 input file(s)
+2026-08-05 11:41:05 - openfe_benchmarks.scripts.prepare_metadata_submission - INFO - Detected mode: rbfe
+2026-08-05 11:41:05 - openfe_benchmarks.scripts.prepare_metadata_submission - INFO - Submission YAML: /Users/jenniferclark/bin/alchemical-benchmark-resources/submissions/2026_07_23_ff14sb_openff-3.0.0-alpha1b_tip3p/get_results/output/submission.yaml
+2026-08-05 11:41:05 - openfe_benchmarks.scripts.prepare_metadata_submission - INFO - Zenodo description: /Users/jenniferclark/bin/alchemical-benchmark-resources/submissions/2026_07_23_ff14sb_openff-3.0.0-alpha1b_tip3p/get_results/output/zenodo_description.md
+2026-08-05 11:41:05 - __main__ - INFO - ✓ Generating submission metadata completed successfully
+
+2026-08-05 11:41:05 - __main__ - INFO - ======================================================================
+2026-08-05 11:41:05 - __main__ - INFO - ✓ Workflow complete!
+2026-08-05 11:41:05 - __main__ - INFO - ======================================================================
+2026-08-05 11:41:05 - __main__ - INFO - Check files in this directory:
+2026-08-05 11:41:05 - __main__ - INFO -   - submission.yaml
+2026-08-05 11:41:05 - __main__ - INFO -   - zenodo_description.md (do not include in submission)
+2026-08-05 13:36:41 - __main__ - INFO - Starting metadata preparation workflow
+2026-08-05 13:36:41 - __main__ - INFO - ======================================================================
+2026-08-05 13:36:41 - __main__ - INFO - Step: Pulling alchemical network
+2026-08-05 13:36:41 - __main__ - INFO - ======================================================================
+2026-08-05 13:36:41 - __main__ - INFO - ✓ Pulling alchemical network completed successfully
+
+2026-08-05 13:36:41 - __main__ - INFO - ======================================================================
+2026-08-05 13:36:41 - __main__ - INFO - Step: Generating computational_results.json
+2026-08-05 13:36:41 - __main__ - INFO - ======================================================================
+2026-08-05 13:36:41 - openfe_benchmarks.scripts.generate_results_archives - INFO - Loading archive:output/AlchemicalNetwork-8f0230086292763f9be6b738348307e8-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_thrombin.json.bz2
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-6e2a93f1a138ba6c669c3fd9439dfdfe (name: '5')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-0346c06a4477eb67b5999ad56e699f83 (name: '3a')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8ce3b6fecc25d2f2ad099538a32bdc2f (name: '6a')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-957d39de3213dba8bba62d4feea9c4ed (name: '1d')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a8662be3826007484601dfe4270363ba (name: '3b')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b4d6fab0e673e750b4fbccacff373ad7 (name: '7a')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-501d14d3409daf429ae4f17af6a33d1f (name: '1c')
+2026-08-05 13:36:41 - openfe_benchmarks.scripts.generate_results_archives - INFO - Extracting results from archive
+2026-08-05 13:36:41 - openfe_benchmarks.scripts.generate_results_archives - INFO - Loading archive:output/AlchemicalNetwork-a1efafd1298d735c7032cebe52be9665-openff-ff14SB_openff_3_0_0_alpha0_opc3-rbfe_jacs_set_tyk2.json.bz2
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-591d6e080a823c1f3fabc983e9ca8026 (name: 'jmc_27')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-35d748bf93674d07ed1602927d22c51c (name: 'ejm_44')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9774a51ba8121618bbd9505e6d423577 (name: 'ejm_43')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-69dd3dd9fa6b99e9ed4a1e4d115e83c8 (name: 'ejm_49')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-d27d55f5051146ffbf0a95ed3ad5867c (name: 'ejm_48')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-fe7dcef556620b5461b9cf616fe6d977 (name: 'ejm_54')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-392aede71289adf8b44a869fdeb31008 (name: 'ejm_55')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b63f07972256b73d44e87933f49f000a (name: 'jmc_30')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a133f223f4e8b866c1016df4780e80b9 (name: 'jmc_28')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f2ccb2f86211be9a57b675793661df3c (name: 'ejm_45')
+2026-08-05 13:36:41 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9af47deca1384f50ecb325bf4c4ef9d4 (name: 'ejm_47')
+2026-08-05 13:36:41 - openfe_benchmarks.scripts.generate_results_archives - INFO - Extracting results from archive
+2026-08-05 13:36:41 - openfe_benchmarks.scripts.generate_results_archives - INFO - System groups and names are set per archive from systems input
+2026-08-05 13:36:41 - openfe_benchmarks.scripts.generate_results_archives - INFO - Writing compressed results to: output/computational_results.json.bz2
+2026-08-05 13:36:41 - openfe_benchmarks.scripts.generate_results_archives - INFO - Done! Found 36 DDG entries and 27 DG entries
+2026-08-05 13:36:41 - __main__ - INFO - ✓ Generating computational_results.json completed successfully
+
+2026-08-05 13:36:41 - __main__ - INFO - ======================================================================
+2026-08-05 13:36:41 - __main__ - INFO - Step: Generating submission metadata
+2026-08-05 13:36:41 - __main__ - INFO - ======================================================================
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-289074b49f5a010145ec9941290b6113 (name: '1b')
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-089eddc8d874fe5d566fd7fa007e98dc (name: '6b')
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a2a826a781750a06a4850bc0f3d99525 (name: '6e')
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-6e2a93f1a138ba6c669c3fd9439dfdfe (name: '5')
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-0346c06a4477eb67b5999ad56e699f83 (name: '3a')
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8bc941c7cc51f10470b1cdb002e13fae (name: '1a')
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-8ce3b6fecc25d2f2ad099538a32bdc2f (name: '6a')
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-957d39de3213dba8bba62d4feea9c4ed (name: '1d')
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a8662be3826007484601dfe4270363ba (name: '3b')
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b4d6fab0e673e750b4fbccacff373ad7 (name: '7a')
+2026-08-05 13:36:42 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-501d14d3409daf429ae4f17af6a33d1f (name: '1c')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-c7d9161a1e3340c5faa4bd7e956d1c6d (name: 'ejm_46')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-591d6e080a823c1f3fabc983e9ca8026 (name: 'jmc_27')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-35d748bf93674d07ed1602927d22c51c (name: 'ejm_44')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-7556f077963846acd299c9cf8fe7f76c (name: 'ejm_31')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9774a51ba8121618bbd9505e6d423577 (name: 'ejm_43')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-2e3fd945ade837d61ac01092badab9fb (name: 'ejm_42')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-cb31dac4e12cdc97b0503db3d14e4d57 (name: 'ejm_50')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-69dd3dd9fa6b99e9ed4a1e4d115e83c8 (name: 'ejm_49')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-d27d55f5051146ffbf0a95ed3ad5867c (name: 'ejm_48')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-fe7dcef556620b5461b9cf616fe6d977 (name: 'ejm_54')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-392aede71289adf8b44a869fdeb31008 (name: 'ejm_55')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f9efbe68db746f2f15b041888d2abb7c (name: 'jmc_23')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-b63f07972256b73d44e87933f49f000a (name: 'jmc_30')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-a133f223f4e8b866c1016df4780e80b9 (name: 'jmc_28')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-f2ccb2f86211be9a57b675793661df3c (name: 'ejm_45')
+2026-08-05 13:36:47 - gufekey.gufe.components.smallmoleculecomponent.SmallMoleculeComponent - INFO - Partial charges are present for SmallMoleculeComponent-9af47deca1384f50ecb325bf4c4ef9d4 (name: 'ejm_47')
+2026-08-05 13:36:54 - openfe_benchmarks.scripts.prepare_metadata_submission - INFO - Processed 2 input file(s)
+2026-08-05 13:36:54 - openfe_benchmarks.scripts.prepare_metadata_submission - INFO - Detected mode: rbfe
+2026-08-05 13:36:54 - openfe_benchmarks.scripts.prepare_metadata_submission - INFO - Submission YAML: /Users/jenniferclark/bin/alchemical-benchmark-resources/submissions/2026_07_23_ff14sb_openff-3.0.0-alpha1b_tip3p/get_results/output/submission.yaml
+2026-08-05 13:36:54 - openfe_benchmarks.scripts.prepare_metadata_submission - INFO - Zenodo description: /Users/jenniferclark/bin/alchemical-benchmark-resources/submissions/2026_07_23_ff14sb_openff-3.0.0-alpha1b_tip3p/get_results/output/zenodo_description.md
+2026-08-05 13:36:54 - __main__ - INFO - ✓ Generating submission metadata completed successfully
+
+2026-08-05 13:36:54 - __main__ - INFO - ======================================================================
+2026-08-05 13:36:54 - __main__ - INFO - ✓ Workflow complete!
+2026-08-05 13:36:54 - __main__ - INFO - ======================================================================
+2026-08-05 13:36:54 - __main__ - INFO - Check files in this directory:
+2026-08-05 13:36:54 - __main__ - INFO -   - submission.yaml
+2026-08-05 13:36:54 - __main__ - INFO -   - zenodo_description.md (do not include in submission)

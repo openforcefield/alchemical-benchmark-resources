@@ -9,6 +9,7 @@ __pycache__/
 # ignore network files
 alchemical*.json*
 Alchemical*.json*
+!alchemicalnetwork_scopekeys.json
 
 # Distribution / packaging
 .Python
