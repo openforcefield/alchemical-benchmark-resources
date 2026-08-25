@@ -1,0 +1,69 @@
+import pathlib
+import json
+import bz2
+
+from gufe.tokenization import JSON_HANDLER
+from cinnabar import plotting
+
+from openfe_benchmarks.scripts._results_utils import build_femap_from_relative_results
+
+RESULTS_FILE = "../get_results/output/computational_results.json.bz2"
+OUTPUT_DIR = "outputs"
+
+
+def _load_results(results_file: str) -> dict:
+    results_path = pathlib.Path(results_file)
+    compressed_path = results_path.with_name(results_path.name + ".bz2")
+
+    if results_path.suffix == ".bz2":
+        open_func = bz2.open
+        path_to_open = results_path
+    elif compressed_path.exists():
+        open_func = bz2.open
+        path_to_open = compressed_path
+    elif results_path.exists():
+        open_func = open
+        path_to_open = results_path
+    else:
+        raise FileNotFoundError(
+            f"Could not find results file: {results_path} or {compressed_path}"
+        )
+
+    with open_func(path_to_open, "rt") as handle:
+        return json.load(handle, cls=JSON_HANDLER.decoder)
+
+
+def main():
+    """
+    An example script which can load the calculated DDG values from RBFE calculations and plot vs experimental data for each system.
+
+    Notes:
+        - Does not plot the DG values
+    """
+
+    # load the results file, whether compressed or not
+    results = _load_results(RESULTS_FILE)
+    if "ddg" not in results:
+        raise ValueError(
+            f"Results file {RESULTS_FILE} does not contain 'ddg' values, cannot plot"
+        )
+
+    # build FEMaps and load with experimental data
+    femaps_by_system = build_femap_from_relative_results(results=results["ddg"])
+
+    output_dir = pathlib.Path(OUTPUT_DIR)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    # for each system plot the RBFE results
+    for (system_group, system_name), femap in femaps_by_system.items():
+        leg_graph = femap.to_legacy_graph()
+        plotting.plot_DDGs(
+            graph=leg_graph,
+            title=f"{system_group}-{system_name}",
+            figsize=5,
+            scatter_kwargs={"s": 20, "marker": "o"},
+            filename=(output_dir / f"{system_group}_{system_name}_DDG.png").as_posix(),
+        )
+
+
+if __name__ == "__main__":
+    main()
